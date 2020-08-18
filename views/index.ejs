@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fumiaki Shishido's portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav></nav>
+    <div>
+        <h1>Fumiaki Shishido</h1>
+    </div>
+    <div class="container">
+        <h2>skill</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+                <p>bootstrap</p>
+                <p>jQuery</p>
+                <p>Veu.js</p>
+            </div>
+            <div class="col-lg-4">
+                <p>Javascript (Node.js)</p>
+                <p>express</p>
+                <p>Python (学習中)</p>
+                <p>APIやライブラリを補完的に利用</p>
+            </div>
+            <div class="col-lg-4">
+                <p>SQL</p>
+                <p>MySQL</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>product</h2>
+        <div class="row">
+            <div class="col-lg-5">
+                <img src="" alt="天気 × 服装">
+                <p><a href="">アプリを体験▶︎</a></p>
+            </div>
+            <div class="col-lg-7">
+                <div class="product-contents">
+                    <p>天気 × 服装</p>
+                    <P class="product-introduction">このアプリは、気象情報と、気温に合わせた服装の画像を見る事ができるものです。気象情報はwebAPIから取得したもの、画像はユーザーの入力に合ったものを表示します。</P>
+                    <p class="product-introduction">主な機能は、会員登録、ログイン、session, cookie、webAPIからのJSONのparseです。</p>
+                    <p>HTML, CSS, Javascript ( Node.js ), MySQL</p>
+                    <p>Express, </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>contact</h2>
+        <p>お問い合わせは、<span>Twitterのダイレクトメール</span>または、下部の<span>お問い合わせフォーム</span>よりお願い致します。</p>
+        <p><a href="">Twitter</a></p>
+        <form action="/" method="POST" name="contactForm">
+            <p id="contactformP">お問い合わせフォーム</p>
+            <div>
+            <div class="formContent">
+                <input type="text" name="contactName" id="contactName" class="">
+                <label for="contactName" id="contactNameLabel">お名前</label>
+            </div>
+            <div class="formContent">
+                <input type="text" name="contactMail" id="contactMail" class="">
+                <label for="contactMail" id="contactMailLabel">ご連絡先</label>
+            </div>
+            <div class="formContent">
+                <!-- <input type="text" name="contactMessage" id="contactMessage" class=""> -->
+                <textarea name="contactMessage" id="contactMessage" cols="30" rows="10"></textarea>
+                <label for="contactMessage" id="contactMessageLabel">メッセージ</label>
+            </div>
+            <div>
+                <input type="submit" value="送信" id="contactSubmit">
+            </div>
+            </div>
+            <p><%= formSend%></p>
+        </form>
+        
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascripts/port.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Noto Serif JP', serif;
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap")
+}
+
+body {
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 17px;
+    color: rgb(6, 0, 113);
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+a:hover,
+a:focus {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(89, 89, 234);
+    cursor: pointer;
+}
+
+form {
+    border: solid 2px rgb(50, 50, 50);
+    padding: 20px 0;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+input[type="text"] {
+    display: inline-block;
+    width: 300px;
+}
+
+textarea {
+    display: inline-block;
+    width: 300px;
+}
+
+label {
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    color: rgb(75, 75, 75);
+    transform: translateY(0%);
+    transition: all 0.3s ease-out;
+}
+.focused {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    transform: translateY(-100%);
+}
+
+input[type="submit"] {
+    width: 100px;
+    background: inherit;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    box-shadow: -1px -1px 1px rgb(176, 175, 175) inset;
+}
+
+.container {
+    margin-top: 120px;
+}
+
+.product-contents {
+    text-align: left;
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+
+.product-introduction {
+    margin-bottom: 10px;
+}
+
+.formContent {
+    position: relative;
+    width: 300px;
+    margin: 25px auto;
+}
+
+.inputed {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
