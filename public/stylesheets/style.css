@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'Noto Serif JP', serif;
-    src: url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap")
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap");
+
+    font-family: 'Poppins', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 }
 
 body {
@@ -8,10 +11,23 @@ body {
     font-family: 'Noto Serif JP', serif;
     font-size: 17px;
     color: rgb(6, 0, 113);
+    background-color: rgb(255, 255, 199);
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    color: rgb(135, 129, 255);
+    text-shadow: 1px 1px 1px rgb(245, 245, 245);
+    background-color: rgb(6, 0, 113);
 }
 
 h2 {
-    margin-bottom: 50px;
+    font-size: 40px;
+    margin-bottom: 70px;
 }
 
 a {
@@ -69,7 +85,7 @@ input[type="submit"]:focus {
 }
 
 .container {
-    margin-top: 120px;
+    margin-top: 250px;
 }
 
 .product-contents {
